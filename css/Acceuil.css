@@ -191,6 +191,8 @@ Main .Container p {
 
 Main .Container #Welcome {
 	animation: welcome 20s infinite ;
+	margin: 0;
+	padding-top: 40px;
 }
 
 @keyframes welcome {
