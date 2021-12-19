@@ -169,7 +169,7 @@ header .Container .Bar:hover .Drop_bar {
 	display: flex;
 }
 
-@media (max-width : 600px) {
+@media (max-width : 610px) {
 	header .Container .List {
 		display: none;
 	}
