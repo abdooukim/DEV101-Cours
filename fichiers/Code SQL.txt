@@ -1,0 +1,32 @@
+
+create table classe( 
+code_classe int not null primary key,
+ nom_classe varchar(20),
+ dateCréation date
+)
+
+ create table BAC( code_Bac int not null primary key, 
+intitulé varchar(80))
+
+create table etudiants( 
+code_et int not null primary key, 
+nom_et varchar(20), 
+Prenom_et varchar(20), 
+code_Bac int,
+Note_Bac int,  
+code_classe int, 
+foreign key (code_Bac) references BAC(code_Bac), 
+foreign key (code_classe) references classe(code_classe) )
+
+insert into classe values(10,'DD101', '2020-9-1'),
+(20,'DD102','2020-9-1'),(30,'DD103','2021-9-1'),(40,'DD104','2021-9-1')
+
+insert into BAC values(100,'SVT'),(200,'SM'),(300,'PC'),(400,'BIOF')
+
+INSERT INTO `etudiants` VALUES 
+(1,'','',10,12,100),(2,'','',10,13,200),(3,'','',10,10,300),(4,'','',10,15,400),(5,'','',20,12,100),
+(6,'','',20,16,200),(7,'','',20,13,300),(8,'','',20,14,400),(9,'','',30,11,100),(10,'','',30,15,200),
+(11,'','',30,15,300),(12,'','',30,14,400),(13,'','',40,16,100),(14,'','',40,17,200),(15,'','',40,15,300),
+(16,'','',40,10,400), (17,'','',10,12,100),(18,'','',20,13,200),(19,'','',30,14,300),(20,'','',40,16,400)
+
+
