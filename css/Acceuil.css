@@ -85,6 +85,10 @@ header .Container .List li {
 	padding: 18px 0;
 }
 
+header .Container .List li .active {
+	background-color: var(--LighterBlue);
+}
+
 header .Container .List li a {
 	padding: 12px 15px;
 	cursor: pointer;
@@ -226,39 +230,54 @@ Main .Container #Welcome {
 /* End Main Acceuil */
 
 
-.Main_html .Container table {
+Main .Container table {
 	margin: 20px auto;
 	height: 40px;
 	width: 80%;
-	background-color: var(--LightestBlue);
-	line-height: 1.2;
 }
 
-.Main_html .Container table tr {
+.Main_html .Container table {
+	background-color: royalblue;
+}
+
+.Main_css .Container table {
+	background-color: aqua;
+}
+
+.Main_python .Container table {
+	background-color: lawngreen;
+}
+
+.Main_database .Container table {
+	background-color: orange;
+}
+
+
+Main  .Container table tr {
 	background-color: var(--MainColor);
 }
 
-.Main_html .Container table td {
+Main .Container table td {
 	padding: 10px;
 }
 
-.Main_html .Container table td i {
+Main .Container table td i {
 	color : rgb(70, 253, 70) ;
 }
 
-.Main_html .Container table td i:hover {
+Main .Container table td i:hover {
 	color: red;
 }
 
-.Main_html .Container table .row1 {
+Main .Container table .row1 {
 	width: 30%;
 }
 
-.Main_html .Container table .row2 {
+Main .Container table .row2 {
 	width: 70%;
 }
 
-.Main_html .Container table td a:hover {
+Main .Container table td a:hover {
 	text-decoration: underline;
 	color: red;
 }
