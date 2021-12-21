@@ -188,6 +188,7 @@ header .Container .Bar:hover .Drop_bar {
 Main {
 	min-height: calc(100vh - 60px) ;
 	background-color: rgba(0, 0, 0, 0.541);
+	padding: 20px 0;
 }
 
 .Main_acc .Container {
@@ -231,7 +232,7 @@ Main .Container #Welcome {
 
 
 Main .Container table {
-	margin: 20px auto;
+	margin: 15px auto;
 	height: 40px;
 	width: 80%;
 }
