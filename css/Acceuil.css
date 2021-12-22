@@ -104,7 +104,7 @@ header .Container .List li a:hover {
 }
 
 header .Container .List li .Drop_list {
-	height: 80px;
+	height: 120px;
 	width: 300%;
 	background-color: var(--SeColor);
 	display: none;
@@ -121,7 +121,7 @@ header .Container .List li:hover .Drop_list  {
 
 header .Container .List li .Drop_list p {
 	width: 100%;
-	height: 50%;
+	height: 33.33%;
 	margin: 0;
 	display: flex;
 	align-items: center;
